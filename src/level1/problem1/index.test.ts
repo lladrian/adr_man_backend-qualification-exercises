@@ -1,6 +1,7 @@
 import { serialize, deserialize, Value } from './';
 
 describe('Serialization', () => {
+
   describe('scalars', () => {
     const cases: [string, Value, unknown][] = [
       ['null', null, null],

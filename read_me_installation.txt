@@ -1,0 +1,1 @@
+npx jest src/level1/problem1/index.test.ts
